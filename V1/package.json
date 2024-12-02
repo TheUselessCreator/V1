@@ -1,0 +1,25 @@
+{
+  "name": "v1",
+  "version": "1.0.0",
+  "description": "An advanced programming language with built-in features.",
+  "main": "compiler/compiler.js",
+  "scripts": {
+    "start": "node bin/v1",
+    "test": "node language_tests/syntax_tests.vo"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "chokidar": "^3.5.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "programming",
+    "language",
+    "compiler",
+    "orm",
+    "debugger",
+    "graphics"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
